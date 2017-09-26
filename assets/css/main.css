@@ -49,9 +49,23 @@ table {
 
 /*________________________________________________________________________________________________*/
 
+/*
 #wrapper {
     width: 500px;
     height: 500px;
     margin: 0 auto;
-    float: right;
+    margin-top: 100px;
+}
+*/
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#blender{
+    display: block;
+    width: 324px;
+    margin: 0 auto;
 }
