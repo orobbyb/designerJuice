@@ -49,14 +49,11 @@ table {
 
 /*________________________________________________________________________________________________*/
 
-/*
-#wrapper {
-    width: 500px;
-    height: 500px;
+#bwrapper {
+    position: relative;
     margin: 0 auto;
-    margin-top: 100px;
+    width: 324px;
 }
-*/
 
 h1 {
     font-size: 50px;
@@ -64,8 +61,32 @@ h1 {
     padding-bottom: 50px;
 }
 
+body {
+    min-width: 1355px;
+    background-color: rgb(138, 218, 149);
+}
+
 #blender{
-    display: block;
+    position: absolute;
     width: 324px;
-    margin: 0 auto;
+}
+
+#blender1{
+    position: absolute;
+    width: 324px;
+}
+
+#banana {
+    width: 120px;
+}
+
+#fwrapper {
+    margin: 600px auto;
+    width: 1355px;
+}
+
+#orange1 {
+    position: absolute;
+    left: 50px;
+    top: 250px;
 }

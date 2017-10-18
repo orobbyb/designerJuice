@@ -3,17 +3,68 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="gridstack.css" rel="stylesheet">
     <title>Designer Juice</title>
   </head>
   <body>
-<!--      <div id="wrapper"> -->
-      <h1>Designer Juice</h1>
-      <img src="assets/images/blender.png" alt="Blender" id="blender">
-<!--     </div>-->
-      <img src="assets/images/grapes.png" alt="Grapes with face" id="grapes">
-      <img src="assets/images/apple.png" alt="Apple with face" id="apple">
-      <img src="assets/images/strawberry.png" alt="Strawberry with face" id="strawberry">
-      <img src="assets/images/cherries.png" alt="Cherries with face" id="cherries">
-      <img src="assets/images/orange.png" alt="Orange with face" id="orange">
+      <div id="bwrapper">
+          <h1>Designer Juice</h1>
+          <img src="assets/images/blender.png" alt="Blender" id="blender">
+          <img src="assets/images/orange.png" alt="Orange with face" id="orange1">
+          <img src="assets/images/blender1.png" alt="Blender" id="blender1">
+      </div>
+      <div id="fwrapper"> 
+          <script> </script>
+          <img src="assets/images/grapes.png" alt="Grapes with face" id="grapes">
+          <img src="assets/images/apple.png" alt="Apple with face" id="apple">
+          <img src="assets/images/strawberry.png" alt="Strawberry with face" id="strawberry">
+          <img src="assets/images/cherries.png" alt="Cherries with face" id="cherries">
+          <img src="assets/images/orange.png" alt="Orange with face" id="orange">
+          <img src="assets/images/banana.png" alt="Banana with face" id="banana">
+          <img src="assets/images/carrot.png" alt="Carrot with face" id="carrot">
+      </div>
   </body>
+    <div class="grid-stack" data-gs-width="12">
+      <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="4" data-gs-height="2">
+        <div class="grid-stack-item-content"></div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="4" data-gs-y="0" data-gs-width="4" data-gs-height="4">
+        <div class="grid-stack-item-content"></div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="8" data-gs-y="0" data-gs-width="2" data-gs-height="2" data-gs-min-width="2" data-gs-no-resize="yes">
+        <div class="grid-stack-item-content"> <span class="fa fa-hand-o-up"></span> Drag me! </div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="10" data-gs-y="0" data-gs-width="2" data-gs-height="2">
+        <div class="grid-stack-item-content"></div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="0" data-gs-y="4" data-gs-width="2" data-gs-height="2">
+        <div class="grid-stack-item-content"></div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="2" data-gs-y="4" data-gs-width="2" data-gs-height="4">
+        <div class="grid-stack-item-content"></div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="8" data-gs-y="4" data-gs-width="4" data-gs-height="2">
+        <div class="grid-stack-item-content"></div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="0" data-gs-y="6" data-gs-width="2" data-gs-height="2">
+        <div class="grid-stack-item-content"></div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="4" data-gs-y="6" data-gs-width="4" data-gs-height="2">
+        <div class="grid-stack-item-content"></div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="8" data-gs-y="6" data-gs-width="2" data-gs-height="2">
+        <div class="grid-stack-item-content"></div>
+      </div>
+      <div class="grid-stack-item" data-gs-x="10" data-gs-y="6" data-gs-width="2" data-gs-height="2">
+        <div class="grid-stack-item-content"></div>
+      </div>
+    </div>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="gridstack.js"></script>
 </html>
