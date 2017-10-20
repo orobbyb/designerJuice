@@ -49,6 +49,10 @@ table {
 
 /*________________________________________________________________________________________________*/
 
+button {
+    outline: none;
+}
+
 #bwrapper {
     position: relative;
     margin: 0 auto;
@@ -94,8 +98,8 @@ body {
 }
 
 #grapes{
-    background-image: url("../images/grapes.png");
     border-width: 0px;
     width: 200px;
     height: 268px;
+    background-color: rgb(138, 218, 149);
 }
