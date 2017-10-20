@@ -92,3 +92,10 @@ body {
     left: 50px;
     top: 250px;
 }
+
+#grapes{
+    background-image: url("../images/grapes.png");
+    border-width: 0px;
+    width: 200px;
+    height: 268px;
+}
