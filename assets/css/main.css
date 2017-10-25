@@ -51,12 +51,19 @@ table {
 
 button {
     outline: none;
+    background-color: rgb(138, 218, 149);
+    border-width: 0px;
 }
 
 #bwrapper {
     position: relative;
     margin: 0 auto;
-    width: 324px;
+    width: 300px;
+}
+
+#top{
+    vertical-align: top;
+    width: 245px;
 }
 
 h1 {
@@ -72,6 +79,19 @@ body {
     background-color: rgb(138, 218, 149);
 }
 
+#orderBox{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-left: 1200px;
+    background-color: aqua;
+    align-content: center;
+    line-height: 200%;
+    border-width: 5px;
+    border-color: black;
+    padding-left: 10px;
+}
+
 #blender{
     position: absolute;
     width: 324px;
@@ -82,19 +102,33 @@ body {
     width: 324px;
 }
 
-#banana {
-    width: 120px;
-}
-
 #fwrapper {
-    margin: 600px auto;
-    width: 1355px;
+    margin: 100px auto;
+    width: 1500px;
 }
 
-#orange1 {
-    position: absolute;
-    left: 50px;
-    top: 250px;
+.fruit{
+    position: relative;
+/*    display: hidden;*/
+    width: 50px;
+    height: 50px;
+    margin-left: 29px;
+    margin-top: 30px;
+    visibility: hidden;
+}
+
+#apple1{
+    margin-top: 60px;
+}
+
+#banana1{
+    width: 50px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+#grapes1{
+    margin-left: 0px;
 }
 
 #grapesButton{
@@ -102,4 +136,12 @@ body {
     width: 200px;
     height: 268px;
     background-color: rgb(138, 218, 149);
+}
+
+#p1{
+    visibility: hidden;
+}
+
+#p2{
+    visibility: hidden;
 }
