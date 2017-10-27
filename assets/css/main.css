@@ -64,6 +64,7 @@ button {
 #top{
     vertical-align: top;
     width: 245px;
+    position: absolute;
 }
 
 h1 {
@@ -100,10 +101,12 @@ body {
 #blender1{
     position: absolute;
     width: 324px;
+    left: .00000000000001px;
+    top: .000000000000001px;
 }
 
 #fwrapper {
-    margin: 100px auto;
+    margin: 400px auto;
     width: 1500px;
 }
 
@@ -144,4 +147,12 @@ body {
 
 #p2{
     visibility: hidden;
+}
+
+#blend{
+    font-size: 20px;
+    width: 65px;
+    background-color: blue;
+    display: block;
+    margin: 0 auto;
 }
