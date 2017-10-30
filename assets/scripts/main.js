@@ -47,17 +47,95 @@ function show(b){
 }
 
 function blend(){
-    document.getElementsByClassName("fruit").style.visibility = "hidden";
-    var grapesColor = rgb(100, 50, 115);
-    var appleColor = rgb(219, 23, 35);
-    var strawberryColor = rgb(230, 29, 33);
-    var cherriesColor = rgb(187, 23, 32);
-    var orangeColor = rgb(235, 110, 35);
-    var bananaColor = rgb(254, 213, 49);
-    var carrotColor = rgb(246, 152, 48);
-    var blendedColor = (grapesColor * grapesCounter + appleColor * appleCounter + strawberryColor * strawberryCounter + cherriesColor * cherriesCounter + orangeColor * orangeCounter + bananaColor * bananaCounter + carrotColor * carrotCounter) / (grapesCounter + appleCounter + strawberryCounter + cherriesCounter + orangeCounter + bananaCounter + carrotCounter);
-    document.getElementByTagName(body).style.background-color = blenderColor;
+    for(var i = 0; i < document.getElementsByClassName("fruit").length; i++){
+        document.getElementsByClassName("fruit")[i].style.visibility = "hidden";      
+    }
+    
+    var grapesRed = 100;
+    var grapesGreen = 50;
+    var grapesBlue = 115;
+    
+    var appleRed = 219;
+    var appleGreen = 23;
+    var appleBlue = 32;
+    
+    var strawberryRed = 230;
+    var strawberryGreen = 29;
+    var strawberryBlue = 33;
+    
+    var cherriesRed = 187;
+    var cherriesGreen = 23;
+    var cherriesBlue = 32;
+    
+    var orangeRed = 235;
+    var orangeGreen = 110;
+    var orangeBlue = 35;
+    
+    var bananaRed = 254;
+    var bananaGreen = 213;
+    var bananaBlue = 49;
+    
+    var carrotRed = 246;
+    var carrotGreen = 152;
+    var carrotBlue = 48;
+    
+    if(grapesCounter==0){
+        grapesRed=0;
+        grapesGreen=0;
+        grapesBlue=0;
+    }
+    
+    if(appleCounter==0){
+        appleRed=0;
+        appleGreen=0;
+        appleBlue=0;
+    }
+    
+    if(strawberryCounter==0){
+        strawberryRed=0;
+        strawberryGreen=0;
+        strawberryBlue=0;
+    }
+    
+    if(cherriesCounter==0){
+        cherriesRed=0;
+        cherriesGreen=0;
+        cherriesBlue=0;
+    }
+    
+    if(orangeCounter==0){
+        orangeRed=0;
+        orangeGreen=0;
+        orangeBlue=0;
+    }
+    
+    if(bananaCounter==0){
+        bananaRed=0;
+        bananaGreen=0;
+        bananaBlue=0;
+    }
+    
+    if(carrotCounter==0){
+        carrotRed=0;
+        carrotGreen=0;
+        carrotBlue=0;
+    }
+    
+    var blendedRed = (grapesRed * grapesCounter + appleRed * appleCounter + strawberryRed * strawberryCounter + cherriesRed * cherriesCounter + orangeRed * orangeCounter + bananaRed * bananaCounter + carrotRed * carrotCounter) / (grapesCounter + appleCounter + strawberryCounter + cherriesCounter + orangeCounter + bananaCounter + carrotCounter);
+    
+    var blendedGreen = (grapesGreen * grapesCounter + appleGreen * appleCounter + strawberryGreen * strawberryCounter + cherriesGreen * cherriesCounter + orangeGreen * orangeCounter + bananaGreen * bananaCounter + carrotGreen * carrotCounter) / (grapesCounter + appleCounter + strawberryCounter + cherriesCounter + orangeCounter + bananaCounter + carrotCounter);
+    
+    var blendedBlue = (grapesBlue * grapesCounter + appleBlue * appleCounter + strawberryBlue * strawberryCounter + cherriesBlue * cherriesCounter + orangeBlue * orangeCounter + bananaBlue * bananaCounter + carrotBlue * carrotCounter) / (grapesCounter + appleCounter + strawberryCounter + cherriesCounter + orangeCounter + bananaCounter + carrotCounter);
+    
+    var finalRed = Math.floor(blendedBlue);
+    var finalGreen = Math.floor(blendedGreen);
+    var finalBlue = Math.floor(blendedBlue);
+    document.getElementById("bwrapper").style.backgroundColor = 'rgb(' + finalRed + ',' + finalGreen + ',' + finalBlue + ')';
 }
+
+//function rgb(r, g, b){
+//  return "rgb("+r+","+g+","+b+")";
+//}
 
 //    var xpos = 550;
 //    var ypos = 100;

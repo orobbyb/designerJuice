@@ -51,7 +51,7 @@ table {
 
 button {
     outline: none;
-    background-color: rgb(138, 218, 149);
+    background-color: white;
     border-width: 0px;
 }
 
@@ -77,7 +77,7 @@ h1 {
 
 body {
     min-width: 1355px;
-    background-color: rgb(138, 218, 149);
+/*    background-color: rgb(138, 218, 149);*/
 }
 
 #orderBox{
@@ -138,7 +138,7 @@ body {
     border-width: 0px;
     width: 200px;
     height: 268px;
-    background-color: rgb(138, 218, 149);
+    background-color: white;
 }
 
 #p1{
