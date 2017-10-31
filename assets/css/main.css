@@ -143,7 +143,7 @@ button{
 	border-width: 0px;
 	width: 200px;
 	height: 268px;
-	background-color: rgb(138, 218, 149);
+	background-color: rgb(138, 218, 149);*/
 }
 
 #p1{
@@ -163,8 +163,31 @@ button{
 	width: 300px;
 	height: 200px;
 	background-color: blue;
+	display: block;
 	/*display: block;*/
 	margin: 0 auto;
 	font-family: "EB Garamond",serif;
 	background-color: rgb(50, 175, 200);
+}
+
+#cup{
+	float: left;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 50px;
+	/*background-color: pink;*/
+}
+
+#cup3{
+	float:left;
+	position: relative;
+	margin-top: 200px;
+	margin-left: 50px;
+	background-color: pink;
+	
+	/*left: .00000000000001px;
+	top: .000000000000001px;
+}*/
+
+#cupWrapper{
 }

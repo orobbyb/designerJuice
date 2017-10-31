@@ -9,7 +9,7 @@ var carrotCounter = 0;
 function show(b){
   var fruit = document.getElementById(b);
   fruit.style.visibility = "visible";
-  
+
   if(b == "grapes1"){
     grapesCounter = grapesCounter + 1;
     var aString = "Grapes: "+grapesCounter;
@@ -133,38 +133,6 @@ var finalBlue = Math.floor(blendedBlue);
 document.getElementById("bwrapper").style.backgroundColor = 'rgb(' + finalRed + ',' + finalGreen + ',' + finalBlue + ')';
 }
 
-//function rgb(r, g, b){
-//  return "rgb("+r+","+g+","+b+")";
-//}
-
-//    var xpos = 550;
-//    var ypos = 100;
-//    var change = 0;
-//
-//function replace(b) {
-//    xpos = xpos + 20;
-//    change = change + 1;
-//    if(change % 4 == 0){
-//        ypos = ypos + 50;
-//        xpos = 100;
-//    }
-//    if(change > 9){
-//       return;
-//    }
-//    var name="newImg"+change;
-//    var x = xpos.toString();
-//    var y = ypos.toString();
-//    var fruit = document.getElementById(b);
-//    var place = fruit.src;
-//    name = document.createElement("img");
-//    name.setAttribute("src", place);
-//    name.setAttribute("height", fruit.height / 2);
-//    name.setAttribute("width", fruit.width / 2);
-//    name.style.position="relative";
-//
-//    var wrapper = document.getElementById("bwrapper");
-//    wrapper.appendChild(name);
-//    name.style.marginLeft = x;
-//    name.style.marginRight = y;
-////    wrapper.insertBefore(document.getElementById("blender"), newImg);
-//}
+// $(document).ready(function() {
+//     // all custom jQuery will go here
+// });
