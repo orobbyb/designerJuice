@@ -9,6 +9,7 @@ var carrotCounter = 0;
 function show(b){
   var fruit = document.getElementById(b);
   fruit.style.visibility = "visible";
+  
   if(b == "grapes1"){
     grapesCounter = grapesCounter + 1;
     var aString = "Grapes: "+grapesCounter;
