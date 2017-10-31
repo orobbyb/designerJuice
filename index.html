@@ -1,93 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link href="gridstack.css" rel="stylesheet">
-    <title>Designer Juice</title>
-  </head>
-  <body>
-      <div id="bwrapper">
-          <h1>Designer Juice</h1>
-          <img src="assets/images/blender.png" alt="Blender" id="blender">
-            <div id="top">
-              <img src="assets/images/apple.png" alt="Apple with face" id="apple1" class="fruit">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link href="gridstack.css" rel="stylesheet">
+  <title>Designer Juice</title>
+</head>
+<body>
+  <div id="bwrapper">
+    <h1>Designer Juice</h1>
+    <img src="assets/images/blender.png" alt="Blender" id="blender">
+    <div id="top">
+      <img src="assets/images/apple.png" alt="Apple with face" id="apple1" class="fruit">
 
-             <!-- Placeholders -->
+      <!-- Placeholders -->
 
-              <img src="assets/images/apple.png" alt="nothing" id="p1" class="fruit">
+      <img src="assets/images/apple.png" alt="nothing" id="p1" class="fruit">
 
-              <!-- Placeholders -->
+      <!-- Placeholders -->
 
-              <img src="assets/images/strawberry.png" alt="Strawberry with face" id="strawberry1" class="fruit">
+      <img src="assets/images/strawberry.png" alt="Strawberry with face" id="strawberry1" class="fruit">
 
-              <img src="assets/images/cherries.png" alt="Cherries with face" id="cherries1" class="fruit">
+      <img src="assets/images/cherries.png" alt="Cherries with face" id="cherries1" class="fruit">
 
-              <img src="assets/images/carrot.png" alt="Carrot with face" id="carrot1" class="fruit">
+      <img src="assets/images/carrot.png" alt="Carrot with face" id="carrot1" class="fruit">
 
-              <img src="assets/images/orange.png" alt="Orange with face" id="orange1" class="fruit">
+      <img src="assets/images/orange.png" alt="Orange with face" id="orange1" class="fruit">
 
-              <img src="assets/images/banana.png" alt="Banana with face" id="banana1" class="fruit">
+      <img src="assets/images/banana.png" alt="Banana with face" id="banana1" class="fruit">
 
-              <!-- Placeholders -->
+      <!-- Placeholders -->
 
-              <img src="assets/images/apple.png" alt="nothing" id="p2" class="fruit">
+      <img src="assets/images/apple.png" alt="nothing" id="p2" class="fruit">
 
-              <!-- Placeholders -->
+      <!-- Placeholders -->
 
-              <img src="assets/images/grapes.png" alt="Grapes with face" id="grapes1" class="fruit">
-              <img src="assets/images/blender2.png" alt="sdfsdf" id="blender1">
-            </div>
-      </div>
-      
-      <div id="orderBox">
-          <p id="grapeOrder">Grapes:</p>
-          <p id="appleOrder">Apple:</p>
-          <p id="strawberryOrder">Strawberry:</p>
-          <p id="cherriesOrder"> Cherries:</p>
-          <p id="orangeOrder">Orange:</p>
-          <p id="bananaOrder">Banana:</p>
-          <p id="carrotOrder">Carrot:</p>
-          
-      </div>
-      
-      <div id="fwrapper"> 
+      <!-- <img src="assets/images/grapes.png" alt="Grapes with face" id="grapes1" class="fruit"> -->
+      <img src="assets/images/blender2.png" alt="sdfsdf" id="blender1">
+    </div>
+  </div>
 
-          <button id="blend" onclick="blend()">Blend</button>
-<!--          <button id="grapes" onClick="click('grapes.png')"> </button>-->
+  <div id="orderBox">
+    <p id="grapeOrder">Grapes:</p>
+    <p id="appleOrder">Apple:</p>
+    <p id="strawberryOrder">Strawberry:</p>
+    <p id="cherriesOrder"> Cherries:</p>
+    <p id="orangeOrder">Orange:</p>
+    <p id="bananaOrder">Banana:</p>
+    <p id="carrotOrder">Carrot:</p>
 
-          <button type="button" id="grapesButton" onclick="show('grapes1')">
-              <img src="assets/images/grapes.png" alt="Grapes with face" id="grapes">
-          </button>
+  </div>
 
-          <button type="button" id="appleButton" onclick="show('apple1')">
-              <img src="assets/images/apple.png" alt="Apple with face" id="apple">
-          </button>
-          
-          <button type="button" id="strawberryButton" onclick="show('strawberry1')">
-              <img src="assets/images/strawberry.png" alt="Strawberry with face" id="strawberry">
-          </button>
-          
-          <button type="button" id="cherriesButton" onclick="show('cherries1')">
-              <img src="assets/images/cherries.png" alt="Cherries with face" id="cherries">
-          </button>
-          
-          <button type="button" id="orangeButton" onclick="show('orange1')">
-              <img src="assets/images/orange.png" alt="Orange with face" id="orange">
-          </button>
-          
-          <button type="button" id="bananaButton" onclick="show('banana1')">
-              <img src="assets/images/banana.png" alt="Banana with face" id="banana">
-          </button>
-          
-          <button type="button" id="carrotButton" onclick="show('carrot1')">
-              <img src="assets/images/carrot.png" alt="Carrot with face" id="carrot">
-          </button>
-          
-      </div>
-  </body>
-    <script src="assets/scripts/main.js"></script>
+
+
+  <div id="fwrapper">
+
+    <div id="blendWrapper">
+      <button id="blend" onclick="blend()">Blend</button>
+    </div>
+
+    <button type="button" id="grapesButton" onclick="show('grapes1')">
+      <img src="assets/images/grapes.png" alt="Grapes with face" id="grapes">
+    </button>
+
+    <button type="button" id="appleButton" onclick="show('apple1')">
+      <img src="assets/images/apple.png" alt="Apple with face" id="apple">
+    </button>
+
+    <button type="button" id="strawberryButton" onclick="show('strawberry1')">
+      <img src="assets/images/strawberry.png" alt="Strawberry with face" id="strawberry">
+    </button>
+
+    <button type="button" id="cherriesButton" onclick="show('cherries1')">
+      <img src="assets/images/cherries.png" alt="Cherries with face" id="cherries">
+    </button>
+
+    <button type="button" id="orangeButton" onclick="show('orange1')">
+      <img src="assets/images/orange.png" alt="Orange with face" id="orange">
+    </button>
+
+    <button type="button" id="bananaButton" onclick="show('banana1')">
+      <img src="assets/images/banana.png" alt="Banana with face" id="banana">
+    </button>
+
+    <button type="button" id="carrotButton" onclick="show('carrot1')">
+      <img src="assets/images/carrot.png" alt="Carrot with face" id="carrot">
+    </button>
+
+  </div>
+</body>
+<script src="assets/scripts/main.js"></script>
 </html>
-

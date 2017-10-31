@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -50,109 +50,121 @@ table {
 /*________________________________________________________________________________________________*/
 
 button {
-    outline: none;
-    background-color: white;
-    border-width: 0px;
+	outline: none;
+	background-color: white;
+	border-width: 0px;
 }
 
 #bwrapper {
-    position: relative;
-    margin: 0 auto;
-    width: 300px;
+	/*position: relative;*/
+	margin: 0 auto;
+	width: 300px;
 }
 
 #top{
-    vertical-align: top;
-    width: 245px;
-    position: absolute;
+	vertical-align: top;
+	width: 245px;
+	position: absolute;
 }
 
 h1 {
-    padding-top: 10px;
-    font-family: Garamond;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 50px;
+	padding-top: 10px;
+	font-family: Garamond;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 50px;
 }
 
 body {
-    min-width: 1355px;
-/*    background-color: rgb(138, 218, 149);*/
+	min-width: 1355px;
+	background-color: rgb(138, 218, 149);
+}
+
+button{
+	background-color: rgb(138, 218, 149);
 }
 
 #orderBox{
-    width: 250px;
-    height: 250px;
-    position: relative;
-    margin-left: 1200px;
-    background-color: aqua;
-    align-content: center;
-    line-height: 200%;
-    border-width: 5px;
-    border-color: black;
-    padding-left: 10px;
+	width: 250px;
+	height: 250px;
+	position: relative;
+	margin-left: 1200px;
+	background-color: rgb(75, 175, 160);
+	align-content: center;
+	line-height: 200%;
+	border-width: 5px;
+	border-color: black;
+	padding-left: 10px;
 }
 
 #blender{
-    position: absolute;
-    width: 324px;
+	position: absolute;
+	width: 324px;
 }
 
 #blender1{
-    position: absolute;
-    width: 324px;
-    left: .00000000000001px;
-    top: .000000000000001px;
+	position: absolute;
+	width: 324px;
+	left: .00000000000001px;
+	top: .000000000000001px;
 }
 
 #fwrapper {
-    margin: 400px auto;
-    width: 1500px;
+	margin: 400px auto;
+	width: 1500px;
 }
 
 .fruit{
-    position: relative;
-/*    display: hidden;*/
-    width: 50px;
-    height: 50px;
-    margin-left: 29px;
-    margin-top: 30px;
-    visibility: hidden;
+	position: relative;
+	/*    display: hidden;*/
+	width: 50px;
+	height: 50px;
+	margin-left: 29px;
+	margin-top: 30px;
+	visibility: hidden;
 }
 
 #apple1{
-    margin-top: 60px;
+	margin-top: 60px;
 }
 
 #banana1{
-    width: 50px;
-    height: 60px;
-    margin-left: 50px;
+	width: 50px;
+	height: 60px;
+	margin-left: 50px;
 }
 
 #grapes1{
-    margin-left: 0px;
+	margin-left: 0px;
+	background-color: rgb(138, 218, 149);
 }
 
 #grapesButton{
-    border-width: 0px;
-    width: 200px;
-    height: 268px;
-    background-color: white;
+	border-width: 0px;
+	width: 200px;
+	height: 268px;
+	background-color: rgb(138, 218, 149);
 }
 
 #p1{
-    visibility: hidden;
+	visibility: hidden;
 }
 
 #p2{
-    visibility: hidden;
+	visibility: hidden;
+}
+
+#blendWrapper{
+	margin: 0 auto;
 }
 
 #blend{
-    font-size: 20px;
-    width: 65px;
-    background-color: blue;
-    display: block;
-    margin: 0 auto;
+	font-size: 50px;
+	width: 300px;
+	height: 200px;
+	background-color: blue;
+	/*display: block;*/
+	margin: 0 auto;
+	font-family: "EB Garamond",serif;
+	background-color: rgb(50, 175, 200);
 }
