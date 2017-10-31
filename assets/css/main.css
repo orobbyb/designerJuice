@@ -59,6 +59,8 @@ button {
 	/*position: relative;*/
 	margin: 0 auto;
 	width: 300px;
+    margin-top: 100px;
+    display: block;
 }
 
 #top{
@@ -97,9 +99,11 @@ button{
 	padding-left: 10px;
 }
 
-#blender{
+#bB{
 	position: absolute;
 	width: 324px;
+    display: block;
+    margin: 0 auto;
 }
 
 #blender1{
@@ -107,6 +111,8 @@ button{
 	width: 324px;
 	left: .00000000000001px;
 	top: .000000000000001px;
+    display: block;
+    margin: 0 auto;
 }
 
 #fwrapper {
@@ -124,6 +130,13 @@ button{
 	visibility: hidden;
 }
 
+#logo{
+    float: left;
+    width: 375px;
+    height: 525px;
+    padding-left: 50px;
+}
+
 #apple1{
 	margin-top: 60px;
 }
@@ -136,7 +149,6 @@ button{
 
 #grapes1{
 	margin-left: 0px;
-	background-color: rgb(138, 218, 149);
 }
 
 #grapesButton{
@@ -163,8 +175,12 @@ button{
 	width: 300px;
 	height: 200px;
 	background-color: blue;
-	/*display: block;*/
+	display: block;
 	margin: 0 auto;
 	font-family: "EB Garamond",serif;
-	background-color: rgb(50, 175, 200);
+	background-color: silver;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
 }
