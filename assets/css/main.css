@@ -60,6 +60,7 @@ button {
 	margin: 0 auto;
 	width: 300px;
     margin-top: 100px;
+    display: block;
 }
 
 #top{
@@ -98,8 +99,11 @@ button{
 	padding-left: 10px;
 }
 
+#bB{
 	position: absolute;
 	width: 324px;
+    display: block;
+    margin: 0 auto;
 }
 
 #blender1{
@@ -107,6 +111,8 @@ button{
 	width: 324px;
 	left: .00000000000001px;
 	top: .000000000000001px;
+    display: block;
+    margin: 0 auto;
 }
 
 #fwrapper {
@@ -122,6 +128,12 @@ button{
 	margin-left: 29px;
 	margin-top: 30px;
 	visibility: hidden;
+}
+
+    float: left;
+    width: 375px;
+    height: 525px;
+    padding-left: 50px;
 }
 
 #apple1{
@@ -169,6 +181,11 @@ button{
 >>>>>>> 1eb4c9a7465f2c6e231d68783ce17a2a360bd6f4
 	margin: 0 auto;
 	font-family: "EB Garamond",serif;
+	background-color: silver;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
 }
 
 #cup{
