@@ -130,7 +130,6 @@ var blendedBlue = ((grapesBlue * grapesCounter) + (appleBlue * appleCounter) + (
 var finalRed = Math.floor(blendedRed);
 var finalGreen = Math.floor(blendedGreen);
 var finalBlue = Math.floor(blendedBlue);
-document.getElementById("bwrapper").style.backgroundColor = 'rgb(' + finalRed + ',' + finalGreen + ',' + finalBlue + ')';
 }
 
 // $(document).ready(function() {

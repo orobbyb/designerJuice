@@ -59,6 +59,7 @@ button {
 	/*position: relative;*/
 	margin: 0 auto;
 	width: 300px;
+    margin-top: 100px;
 }
 
 #top{
@@ -97,7 +98,6 @@ button{
 	padding-left: 10px;
 }
 
-#blender{
 	position: absolute;
 	width: 324px;
 }
@@ -136,7 +136,6 @@ button{
 
 #grapes1{
 	margin-left: 0px;
-	background-color: rgb(138, 218, 149);
 }
 
 #grapesButton{
@@ -164,10 +163,12 @@ button{
 	height: 200px;
 	background-color: blue;
 	display: block;
+<<<<<<< HEAD
 	/*display: block;*/
+=======
+>>>>>>> 1eb4c9a7465f2c6e231d68783ce17a2a360bd6f4
 	margin: 0 auto;
 	font-family: "EB Garamond",serif;
-	background-color: rgb(50, 175, 200);
 }
 
 #cup{
