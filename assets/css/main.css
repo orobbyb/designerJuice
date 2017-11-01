@@ -67,6 +67,7 @@ button {
 	vertical-align: top;
 	width: 245px;
 	position: absolute;
+	border: 0px;
 }
 
 h1 {
@@ -170,7 +171,7 @@ button{
 	border-width: 0px;
 	width: 200px;
 	height: 268px;
-	background-color: rgb(138, 218, 149);*/
+	background-color: rgb(138, 218, 149);
 }
 
 #p1{
@@ -191,10 +192,6 @@ button{
 	height: 200px;
 	background-color: blue;
 	display: block;
-<<<<<<< HEAD
-	/*display: block;*/
-=======
->>>>>>> 1eb4c9a7465f2c6e231d68783ce17a2a360bd6f4
 	margin: 0 auto;
 	font-family: "EB Garamond",serif;
 	background-color: silver;
@@ -212,13 +209,12 @@ button{
 	/*background-color: pink;*/
 }
 
-#cup3{
+#cupBackground{
 	float:left;
-	position: relative;
-	margin-top: 200px;
-	margin-left: 50px;
-	background-color: pink;
-	
+	position: absolute;
+	margin-top: 407px;
+	margin-left: 200px;
+
 	/*left: .00000000000001px;
 	top: .000000000000001px;
 }*/
