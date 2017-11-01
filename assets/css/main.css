@@ -100,6 +100,8 @@ button{
 	padding-left: 10px;
 	border-radius: 20px;
 	border-style: solid;
+	font-size: 18px;
+	font-family: Garamond;
 }
 
 #bB{
@@ -139,6 +141,7 @@ button{
 		display: block;
 		width:333px;
 		height: 167px;
+		margin-bottom: 40px;
 }
 
 #blurb{
@@ -151,6 +154,10 @@ button{
 	padding-right: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	font-family: Garamond;
+	font-size: 26px;
+	margin-top: 50px;
+	line-height: 130%;
 }
 
 #apple1{
@@ -188,6 +195,7 @@ button{
 
 #blend{
 	font-size: 50px;
+	font-family: Garamond;
 	width: 300px;
 	height: 200px;
 	background-color: blue;
@@ -214,10 +222,4 @@ button{
 	position: absolute;
 	margin-top: 408px;
 	margin-left: 200px;
-
-	/*left: .00000000000001px;
-	top: .000000000000001px;
-}*/
-
-#cupWrapper{
 }
