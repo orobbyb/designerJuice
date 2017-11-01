@@ -130,6 +130,7 @@ button{
 	visibility: hidden;
 }
 
+#logo{
     float: left;
     width: 375px;
     height: 525px;
